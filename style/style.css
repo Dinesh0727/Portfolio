@@ -1,0 +1,39 @@
+/*To use this style we must include a a tag*/
+/*We can use this stylesheet in any of the HTML file */
+
+/*The constant pattern*/
+/*selector{
+	property:Attribute;
+	......,
+	.....,
+	.......,
+	}*/
+
+h2{
+	color: green;
+	padding: yellow;
+}
+
+body{
+	background-color:default;
+	color:purple;
+
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 16px;
+	font-weight: normal;
+	/*Same as*/
+	font: normal 16px Arial,Helvetica,sans-serif;
+
+	line-height:1.6em; 
+	margin:0;
+}
+.box-1{
+	background-color: black;
+	color: white ;
+	
+	border: 5px red solid ;	
+}
+.container{
+    margin: auto;
+	width: 80%;
+}
